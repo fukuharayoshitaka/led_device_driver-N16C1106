@@ -35,4 +35,7 @@ echo 4 > /dev/myled0 //Right LED solid
 This repository is licensed under the GPLv3 license
 
 ## References　
+rikusekiuchi
+https://github.com/rikusekiuchi
+led_devicce_driver_2
 https://github.com/rikusekiuchi/led_devicce_driver_2
