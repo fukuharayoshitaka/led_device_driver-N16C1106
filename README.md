@@ -1,5 +1,7 @@
-# led_devicce_driver_2
-Device driver for separately shining two LEDs.
+
+
+# led_devicce_driver
+A device driver that turns on or off two LEDs.
 
 ## Demonstration
 -https://youtu.be/JznLMOIqXDE
@@ -7,12 +9,13 @@ Device driver for separately shining two LEDs.
 ## Requirements
 - Raspberry Pi 3 Model B
   - Raspbian
+  
 - Linux Kernel Source
   - download kernel source into /user/src/linux
   - kernel build scripts : https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 - 2 LEDs
-  - Left LED :GPIO25
-  - Right LED :GPIO24
+  - green LED :GPIO25
+  - red LED :GPIO24
   
 ## Usage
 ```
@@ -30,3 +33,5 @@ echo 4 > /dev/myled0 //Right LED solid
 
 ## Licence
 This repository is licensed under the GPLv3 license
+
+####References
