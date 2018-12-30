@@ -1,3 +1,13 @@
+/*
+#### Reference ####
+rikusekiuchi
+https://github.com/rikusekiuchi
+
+led_devicce_driver_2
+https://github.com/rikusekiuchi/led_devicce_driver_2
+*/
+
+
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
