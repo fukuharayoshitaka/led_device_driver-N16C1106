@@ -19,9 +19,9 @@ A device driver that turns on or off two LEDs.
   
 ## Usage
 ```
-cd led_device_driver_2
+cd robosys
 make
-sudo insmod myled.ko
+sudo insmod myled1.ko
 sudo chmod 666 /dev/myled0
 echo 1 > /dev/myled0 //2LEDs flash
 echo 0 > /dev/myled0 //2LEDs solid
